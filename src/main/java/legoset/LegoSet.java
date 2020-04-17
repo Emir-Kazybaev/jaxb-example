@@ -10,10 +10,12 @@ import java.util.Set;
 import lombok.Data;
 
 @XmlRootElement
-//@XmlRootElement(name = "legoSet number=\"75211\"")
 @XmlAccessorType(XmlAccessType.FIELD)
 @Data
 public class LegoSet {
+
+    @XmlAttribute(name = "number")
+    private int number;
     private String name;
     private String theme;
     private String subtheme;

@@ -2,7 +2,6 @@ package legoset;
 
 import jaxb.JAXBHelper;
 
-import javax.xml.bind.annotation.*;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.time.Year;
@@ -10,12 +9,11 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-@XmlRootElement
-@XmlAccessorType(XmlAccessType.FIELD)
 public class Main {
 
     public static void main(String[] args) throws Exception {
         LegoSet legoSet = new LegoSet();
+        legoSet.setNumber(75211);
         legoSet.setName("Imperial TIE Fighter");
         legoSet.setTheme("Star Wars");
         legoSet.setSubtheme("Solo");
@@ -36,9 +34,6 @@ public class Main {
         weight.add(new Weight("kg",0.89));
         legoSet.setWeight(weight);
         legoSet.setUrl("https://brickset.com/sets/75211-1/Imperial-TIE-Fighter");
-
-//        System.out.println(legoSet);
-//        JAXBHelper.toXML(legoSet, System.out);
 
         JAXBHelper.toXML(legoSet, new FileOutputStream("legoSet.xml"));
         System.out.println(JAXBHelper.fromXML(LegoSet.class, new FileInputStream("legoSet.xml")));
