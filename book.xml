@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<book>
+    <name>The Dead Zone</name>
+    <author>Stephen King</author>
+    <language>English</language>
+    <date>
+        <day>14</day>
+        <month>May</month>
+        <year>2018</year>
+    </date>
+    <genres>
+        <genre>Novel</genre>
+        <genre>Thriller</genre>
+        <genre>Horror fiction</genre>
+        <genre>Detective fiction</genre>
+        <genre>Fantastic</genre>
+    </genres>
+    <pages>608</pages>
+    <Bestsellers_rank>3021</Bestsellers_rank>
+    <publisher>HODDER &amp; STOUGHTON</publisher>
+    <pCity>London</pCity>
+    <ratings>
+        <rating website="GoodReads">3.92</rating>
+        <rating website="LibraryThing">3.78</rating>
+        <rating website="Amazon">4.5</rating>
+    </ratings>
+    <prices>
+        <price item="Book" discount="false" currency="FT">5722</price>
+        <price item="Book" discount="true" currency="FT">3544</price>
+        <price item="CD-Audio" discount="false" currency="FT">12890</price>
+        <price item="CD-Audio" discount="true" currency="FT">10106</price>
+    </prices>
+    <description>Stephen King's fan-favourite thriller. Also available in audio for the first time, read by Academy Award nominee James Franco.
+
+The two things that conjured up that horrible night, were his run of luck at the Wheel of Fortune, and the mask . . .
+
+Meet Johnny Smith. A young man whose streak of luck ends dramatically in a major car crash. Followed by blackness. A long, long time in cold limbo.
+
+When he wakes up life has been turned upside down. His fiancee has met someone else. And Johnny is cursed with the power to perceive evil in men's souls. He's had these hunches since he had an ice-skating accident as a child. Now he has an ability to see into the future. An ability which will bring him into a terrifying confrontation with a charismatic, power-hungry and dangerous man . . .</description>
+    <ISBNS>
+        <ISBN isbn="10">1444708090</ISBN>
+        <ISBN isbn="13">9781444708097</ISBN>
+    </ISBNS>
+    <attributes measure="mm">
+        <xSide>131</xSide>
+        <ySide>197</ySide>
+        <zSide>38</zSide>
+    </attributes>
+    <weight unit="g">422</weight>
+    <url>https://www.bookdepository.com/Dead-Zone-Stephen-King/9781444708097</url>
+</book>
